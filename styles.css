@@ -54,8 +54,11 @@ body {
 }
 
 .slide__one {
-  height: 60vh;
+  height: 75vh;
   width: 60vw;
+  flex: unset;
+  margin: auto;
+  margin-block-start: 5%;
 }
 
 .slide h3 {
@@ -94,6 +97,15 @@ body {
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 15px;
+}
+
+.text::-webkit-scrollbar {
+  background-color: #272423;
+  width: 10px;
+}
+
+.text::-webkit-scrollbar-thumb {
+  background-color:#7b7978;
 }
 
 .text {
