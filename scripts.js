@@ -52,14 +52,8 @@ const clearClasses = (elems, classes) => {
 
 pagesDown.addEventListener("click", () => {
   window.scrollBy(0, window.innerHeight);
-  pagesDown.classList.add("hidden");
-  pagesTop.classList.remove("hidden");
 });
 
 pagesTop.addEventListener("click", () => {
   window.scrollBy(0, -window.innerHeight);
-  pagesDown.classList.remove("hidden");
-  pagesTop.classList.add("hidden");
 });
-
-console.log(window.innerHeight);
